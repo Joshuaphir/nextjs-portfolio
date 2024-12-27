@@ -3,13 +3,11 @@ import React from 'react'
 import Image from 'next/image'
 import HeroImage from '@/app/images/HeroImage1.png'
 import { TypeAnimation } from 'react-type-animation';
-import CybersecurityIcon from './CybersecurityIcon';
-import NetworkingIcon from './NetworkingIcon';
-import DatabaseIcon from './DatabaseIcon';
-import DataScienceIcon from './DataScienceIcon';
 import BlockchainIcon from './BlockchainIcon';
+import AnimatedCybersecurityIcon from './animationComponents/AnimatedCybersecurityIcon';
+import RotatingGlobalIcon from './animationComponents/RotatingGlobalIcon';
+import PulsingNetworkingIcon from './animationComponents/PulsingNetworkingIcon';
 import ComputerIcon from './ComputerIcon';
-import GlobeIcon from './GlobeIcon';
 
 const Hero = () => {
   return (
@@ -60,34 +58,34 @@ const Hero = () => {
               height={300}
             />  
             <div className='hidden absolute top-0 left-0 z-10 md:block'>
-              <CybersecurityIcon />
+              <AnimatedCybersecurityIcon />
             </div>
             <div className='hidden absolute top-10 left-9 md:block'>
-              <NetworkingIcon />
+              <PulsingNetworkingIcon />
             </div>
             <div className='hidden absolute top-0 right-0 md:block'>
-              <NetworkingIcon />
+              <PulsingNetworkingIcon />
             </div>
-            <div className='hidden absolute bottom-7 left-32 md:block'>
-              <ComputerIcon />
+            <div className='hidden absolute bottom-7 left-28 md:block'>
+              <RotatingGlobalIcon />
             </div>
             <div className='hidden absolute bottom-0 right-10 md:block'>
-              <GlobeIcon />
+              <RotatingGlobalIcon />
             </div>
             <div className='hidden absolute top-10 right-20 md:block'>
-              <GlobeIcon />
+              <RotatingGlobalIcon />
             </div>
-            <div className='hidden absolute bottom-16 -left-32 md:block'>
-              <BlockchainIcon />
+            <div className='hidden absolute bottom-20 -left-24 md:block'>
+              <ComputerIcon />
             </div>
             <div className='hidden absolute -top-3 left-64 md:block'>
               <BlockchainIcon />
             </div>
-            <div className='hidden absolute -bottom-16 left-32 md:block'>
-              <NetworkingIcon />
+            <div className='hidden absolute bottom-24 left-24 md:block'>
+              <PulsingNetworkingIcon />
             </div>
             <div className='hidden absolute bottom-16 -right-8 md:block'>
-              <BlockchainIcon />
+              <ComputerIcon />
             </div>
           </div>
           
