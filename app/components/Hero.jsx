@@ -11,7 +11,7 @@ import ComputerIcon from './ComputerIcon';
 
 const Hero = () => {
   return (
-    <section>
+    <section className='py-4'>
       <div className='grid grid-cols-1 sm:grid-cols-12 P-4'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className='text-white mb-4 text-3xl sm:text-4xl lg:text-5xl font-semiboldbold'>

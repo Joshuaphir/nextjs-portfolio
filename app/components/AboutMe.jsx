@@ -119,7 +119,7 @@ const AboutMe = () => {
         })
     }
   return (
-    <section className='text-white'>
+    <section className='text-white py-4'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:'>
             <div className="w-[280px] sm:w-[340px] lg:w-[440px] mx-auto mb-6 flex flex-col items-center justify-center border border-gray-300 rounded-3xl shadow-md p-4">
                 <div className="w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] flex items-center justify-center border border-gray-200 rounded-full overflow-hidden mb-4">

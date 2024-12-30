@@ -2,6 +2,8 @@ import Image from "next/image";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
+import ProjectSection from "./components/ProjectSection";
+import Services from "./components/Service";
 
 export default function Home() {
   return (
@@ -11,7 +13,13 @@ export default function Home() {
         <Hero />
       </div>
       <div>
+        <Services />
+      </div>
+      <div>
         <AboutMe />
+      </div>
+      <div>
+        <ProjectSection />
       </div>
     </main>    
   );
